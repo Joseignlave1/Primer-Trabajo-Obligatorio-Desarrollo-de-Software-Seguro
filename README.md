@@ -2,7 +2,7 @@
 
 ## Integrantes: Jose Ignacio Lavecchia, Franco Robotti.
 
-En este trabajo realizaremos un Write Up acerca del armado de un ambiente de pruebas de aplicaciones, para esto recurrir a la virtualización consideramos que es la mejor opción.
+En este trabajo realizaremos un Write Up acerca del armado de un ambiente de pruebas de aplicaciones, para esto consideramos que recurrir a la virtualización es la mejor opción.
 
 En este tutorial utilizaremos eligiremos virtualBox como máquina virtual y mostraremos los pasos para configurar los proxys de interpretación ZAP y BURP.
 
