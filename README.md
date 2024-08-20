@@ -6,7 +6,7 @@ En este trabajo realizaremos un Write Up acerca del armado de un ambiente de pru
 
 En este tutorial utilizaremos VirtualBox como máquina virtual y mostraremos los pasos para configurar los proxys de interceptación ZAP y BURP.
 
-### *Requisitos:*
+### *Requisitos*:
 
 - Instalación de Kali Linux en una máquina virtual (recomendamos VirtualBox para este tutorial).
 - Instalación de un Proxy de interceptación (ZAP o BURP).
@@ -16,7 +16,7 @@ En este tutorial utilizaremos VirtualBox como máquina virtual y mostraremos los
 
 ### *Instalación de Kali Linux en una máquina virtual*
 
-#### *Instalación de VirtualBox:*
+#### *Instalación de VirtualBox*:
 
 Para esto, primero procederemos al sitio web de VirtualBox: [https://www.virtualbox.org/](https://www.virtualbox.org/)
 
@@ -28,7 +28,7 @@ Posteriormente, simplemente seleccionamos "VirtualBox 7.0.20 platform packages" 
 
 ![image](https://github.com/user-attachments/assets/87eaace4-8ac2-4355-8bfa-4841a304e53e)
 
-#### *Instalación de Kali:*
+#### *Instalación de Kali*:
 
 Kali es una distribución de Linux, diseñada específicamente para pruebas de seguridad y hacking ético. Posee una gran variedad de herramientas preinstaladas que se utilizan para tareas como análisis de vulnerabilidades, pruebas de penetración, y auditorías de seguridad en sistemas informáticos.
 
@@ -50,7 +50,7 @@ Al extraerlo, encontraremos varios archivos `.amd`. El que necesitamos es el de 
 
 ![image](https://github.com/user-attachments/assets/1d73b0f7-bcc7-46e1-acc2-67a8d45a619a)
 
-#### Inicialización de la Máquina Virtual con Kali
+#### *Inicialización de la Máquina Virtual con Kali*:
 
 Abrimos VirtualBox, hacemos clic en Máquina > Añadir, y seleccionamos nuestro archivo `.amd` en el escritorio.
 
@@ -64,7 +64,7 @@ El usuario por defecto es `kali` y la contraseña `kali`.
 
 ![image](https://github.com/user-attachments/assets/d9792163-138c-4d7e-af2c-fd2f32984640)
 
-#### *Configuración de recursos:*
+#### *Configuración de recursos*:
 
 Adicionalmente, podemos configurar los recursos. Para ello, nos dirigimos a VirtualBox, buscamos nuestra máquina virtual y hacemos clic en Configuración > Sistema > Placa base.
 
@@ -80,7 +80,7 @@ Lo recomendable es 3 núcleos (siempre y cuando tu equipo lo soporte).
 
 Recuerda que los recursos que asignamos en esta configuración serán consumidos del hardware de nuestra máquina, por lo que es recomendable asignarlos con precaución y de una manera adecuada teniendo en cuenta nuestras especificaciones.
 
-### *Instalación de un Proxy de interceptación (ZAP)*
+### *Instalación de un Proxy de interceptación (ZAP)*:
 
 Una vez dentro de nuestra máquina virtual, debemos ingresar a la página oficial de ZAP: [https://www.zaproxy.org/download/](https://www.zaproxy.org/download/)
 
@@ -140,9 +140,8 @@ Una vez allí, seleccionamos la opción "Manual proxy configuration" y escribimo
 
 ![image](https://github.com/user-attachments/assets/99ec7869-1ee9-4fee-8188-85ad15e13faf)
 
-### *Instalación de un Proxy de interceptación (BURP)*
+### *Instalación de un Proxy de interceptación (BURP)*   PARTE DE FRANCO
 
---Parte de Franco--
 
 ### *Instalación de Docker en la máquina virtual de Kali Linux*:
 
