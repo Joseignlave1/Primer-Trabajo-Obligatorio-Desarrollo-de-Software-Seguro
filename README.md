@@ -6,7 +6,7 @@ En este trabajo realizaremos un Write Up acerca del armado de un ambiente de pru
 
 En este tutorial utilizaremos VirtualBox como máquina virtual y mostraremos los pasos para configurar los proxys de interceptación ZAP y BURP.
 
-### **Requisitos:**
+### *Requisitos:*
 
 - Instalación de Kali Linux en una máquina virtual (recomendamos VirtualBox para este tutorial).
 - Instalación de un Proxy de interceptación (ZAP o BURP).
@@ -14,9 +14,9 @@ En este tutorial utilizaremos VirtualBox como máquina virtual y mostraremos los
 - Ejecución de un contenedor con OWASP Juice Shop.
 - Prueba de la visualización del tráfico con el proxy de interceptación seleccionado.
 
-### **Instalación de Kali Linux en una máquina virtual**
+### *Instalación de Kali Linux en una máquina virtual*
 
-#### Instalación de VirtualBox:
+#### *Instalación de VirtualBox:*
 
 Para esto, primero procederemos al sitio web de VirtualBox: [https://www.virtualbox.org/](https://www.virtualbox.org/)
 
@@ -28,7 +28,7 @@ Posteriormente, simplemente seleccionamos "VirtualBox 7.0.20 platform packages" 
 
 ![image](https://github.com/user-attachments/assets/87eaace4-8ac2-4355-8bfa-4841a304e53e)
 
-#### Instalación de Kali:
+#### *Instalación de Kali:*
 
 Kali es una distribución de Linux, diseñada específicamente para pruebas de seguridad y hacking ético. Posee una gran variedad de herramientas preinstaladas que se utilizan para tareas como análisis de vulnerabilidades, pruebas de penetración, y auditorías de seguridad en sistemas informáticos.
 
@@ -64,7 +64,7 @@ El usuario por defecto es `kali` y la contraseña `kali`.
 
 ![image](https://github.com/user-attachments/assets/d9792163-138c-4d7e-af2c-fd2f32984640)
 
-#### Configuración de recursos:
+#### *Configuración de recursos:*
 
 Adicionalmente, podemos configurar los recursos. Para ello, nos dirigimos a VirtualBox, buscamos nuestra máquina virtual y hacemos clic en Configuración > Sistema > Placa base.
 
