@@ -130,6 +130,8 @@ Posteriormente escribimos "proxy" en el cambio de texto, y nos aseguramos que la
 
 ![image](https://github.com/user-attachments/assets/289a0bcd-5ece-41e9-ba88-54828fb63cbc)
 
+Posteriormente escribimos "proxy" en el cambio de texto, y nos aseguramos que la opción marcada en azul "network.proxy.allow_hijacking_localhost" esté seteada en true, esto permite que el navegador reenvie tráfico desde y hacia localhost através del proxy, estamos configurando el proxy a nivel de Red.
+
 ![image](https://github.com/user-attachments/assets/7f50a1cc-5e0c-4b98-a0cb-33c9a4557584)
  
 Ahora debemos configurar el acceso a internet de nuestro proxy, para ello hacemos click en las "tres rallas", para luego hacer click en "settings"
