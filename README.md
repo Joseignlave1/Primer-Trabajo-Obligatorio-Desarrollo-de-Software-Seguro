@@ -42,9 +42,16 @@ Una vez en el sitio, debemos hacer click la opción de Virtual Machines
 
 ![image](https://github.com/user-attachments/assets/c376983f-c9d6-4a8a-988f-f0b18eaf67d0)
 
-Una vez adentro, debemos seleccionar de Maquina Virtual Pre armada de Virtual Box que mas se adapte a nuestro Sistema Operativos ya sea 64 o 32 bits.
+Una vez adentro, debemos seleccionar de Maquina Virtual Pre armada de Virtual Box la opción que mas se adapte a nuestro Sistema Operativos ya sea 64 o 32 bits.
 
 ![image](https://github.com/user-attachments/assets/41a9fcf1-3b18-4bd0-9d33-15b838ac71f2)
+
+Al completar la instalación, vamos a tener un archivo comprimido(.zip) 
+
+![image](https://github.com/user-attachments/assets/3de38dee-1fee-4a82-bf49-58392779c6bc)
+
+Al extrerlo tendremos varios .amd, en este caso el que necesitamos es el de virtualBox
+
 
 
 
