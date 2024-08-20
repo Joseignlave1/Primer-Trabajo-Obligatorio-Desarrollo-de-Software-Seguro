@@ -7,7 +7,7 @@ En este trabajo realizaremos un Write Up acerca del armado de un ambiente de pru
 En este tutorial utilizaremos eligiremos virtualBox como máquina virtual y mostraremos los pasos para configurar los proxys de interpretación ZAP y BURP.
 
 
-**Requisitos:**
+### **Requisitos:**
 
 -Instalación de Kali Linux en una máquina virtual(recomendamos virtual box para este tutorial)
 -Instalación de un Proxy de interceptación(ZAP o BURP)
