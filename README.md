@@ -200,7 +200,7 @@ Para dejar de ejecutar nuestro contenedor, debemos ejecutar el siguiente comando
 ![image](https://github.com/user-attachments/assets/f2d0828d-86da-4154-bb68-f87769e31c8f)
 
 
-### *Prueba de la visualización del tráfico con el proxy de interceptación seleccionado* ###
+### *Prueba de la visualización del tráfico con el proxy de interceptación seleccionado* 
 
 
 
