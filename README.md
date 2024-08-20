@@ -128,17 +128,17 @@ Posteriormente escribimos "proxy" en el cambio de texto, y nos aseguramos que la
 
 ![image](https://github.com/user-attachments/assets/a2b6d210-3890-4d00-b4d5-8839132ef7f2)
 
-Ahora debemos configurar el acceso a internet de nuestro proxy, para ello hacemos click en las "tres rallas", para luego hacer click en "settings"
 ![image](https://github.com/user-attachments/assets/289a0bcd-5ece-41e9-ba88-54828fb63cbc)
 
-Procedemos a escribir "proxy" en el buscador, y nos dirigimos al apartado "settings"
 ![image](https://github.com/user-attachments/assets/7f50a1cc-5e0c-4b98-a0cb-33c9a4557584)
-
-Una vez allí, seleccionamos la opción "Manual proxy configuration", y escribimos "127.0.0.1" esto es el puerto mediante el cuál nuestro navegador va a conectarse a tráficop HTTP, también utilizamos el mismo para HTTPS
+ 
+Ahora debemos configurar el acceso a internet de nuestro proxy, para ello hacemos click en las "tres rallas", para luego hacer click en "settings"
 ![image](https://github.com/user-attachments/assets/bd16f80d-c3a3-4568-8175-8215b356ae00)
 
+Procedemos a escribir "proxy" en el buscador, y nos dirigimos al apartado "settings"
 ![image](https://github.com/user-attachments/assets/d97b874d-78a0-4d91-b970-aabf3d781f77)
 
+Una vez allí, seleccionamos la opción "Manual proxy configuration", y escribimos "127.0.0.1" esto es el puerto mediante el cuál nuestro navegador va a conectarse a tráficop HTTP, también utilizamos el mismo para HTTPS
 ![image](https://github.com/user-attachments/assets/99ec7869-1ee9-4fee-8188-85ad15e13faf)
 
 
