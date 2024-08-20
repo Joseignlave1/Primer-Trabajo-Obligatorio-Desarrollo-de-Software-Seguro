@@ -16,7 +16,7 @@ En este tutorial utilizaremos eligiremos virtualBox como máquina virtual y most
 -Prueba de la visualización del tráfico con el proxy de interpretación seleccionado.
 
 
-###Instalación de Kali Linux en una máquina virtual
+### **Instalación de Kali Linux en una máquina virtual**
 Para esto primero procederemos al sitio web de virtual box https://www.virtualbox.org/
 
 y haremos click a donde dice "Download Virtual Box 7.0"
