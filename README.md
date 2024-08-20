@@ -59,6 +59,11 @@ Al extraerlo tendremos varios .amd, en este caso el que necesitamos es el de vir
 
 Abrimos Virtual Box, hacemos click en Maquina-Añadir, y seleccionamos nuestro archivo .amd en nuestro escritorio.
 
+![image](https://github.com/user-attachments/assets/700f8a62-cf46-4789-9885-c9087bbbf10e)
+
+![image](https://github.com/user-attachments/assets/75ad4b8f-79a4-4729-a5dd-5968d55df335)
+
+
 Esto ya nos creará la máquina virtual, por lo que solo debemos inicializa.
 
 El usuario por defecto es kali y la contraseña kali
