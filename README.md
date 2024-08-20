@@ -95,29 +95,46 @@ Posteriormente debemos utilizar la versión compatible con nuestro sistema opera
 
 ![image](https://github.com/user-attachments/assets/358b845e-9a91-4195-bfaf-7310fce10fa7) 
 
-
+Después de la instalación, tendremos una archivo comprimido(.zip) el cuál debemos extraer 
 ![image](https://github.com/user-attachments/assets/d03cf32c-422f-4348-8be4-62c128599acc)
 
+Posteriormente abrimos la terminal y nos dirigimos a nuestro directorio de descargas para después movernos hacia donde tenemos la carpeta extraída del zip.
 ![image](https://github.com/user-attachments/assets/f29a6a38-2fcf-45bd-9cb1-a36ee3b0d42d)
 
 ![image](https://github.com/user-attachments/assets/6b925478-8112-4351-90b7-3cf609fad1e7)
 
+Ejecutamos el comando ./zap.sh en la consola, para así poder abrir directamente el programa ZAP.
+
 ![image](https://github.com/user-attachments/assets/764b3b2f-e478-445a-b126-40a75a7210d8)
+
+Una vez dentro, nos dirigimos a el apartado "Quick Start", en le vamos a configurar la URL la cuál va a ser explorada por el navegador(deber la misma URL en la cuál se va a ejecutar la imagen de nuestro contenedor de docker) a efectos de este tutorial, la url escogida será "http://localhost:3000".
+
+Podemos configurar el navegador por defecto de ZAP en donde dice "Explore your Application", en el caso de este tutorial, el navegador escogido será Firefox.
+Esto debido a qué Firefox tiene una compatibilidad nativa con ZAP, lo que facilita la configuración de proxies sin extensiónes adiccionales.
 
 ![image](https://github.com/user-attachments/assets/8468ae80-94d8-46cf-a470-43b94d386e54)
 
+Ahora vamos a configurar el proxy del navegador, para ello hacemos click en el ícono Firefox dentro de ZAP.
+
 ![image](https://github.com/user-attachments/assets/768b19fc-f968-4331-8e4b-6e9078b333c7)
 
+Una vez adentro de nuestro navegador, procedemos a escribir en el buscador "about:config", esto nos permite acceder a la configuración avanzada del navegador.
 ![image](https://github.com/user-attachments/assets/0e494dc0-cbf9-417a-b8bb-d9f844fc4bbc)
 
+Recibiremos un mensaje de "Proceda con cuidado", posteriormente debemos hacer click en el botón llamado "Accept the Risk and Continue".(recuerda no tocar otras configuraciónes avanzadas sin tener el conocimiento debido a qué puede afectar la perfomance de nuestro navegador dentro de la máquina virtual)
 ![image](https://github.com/user-attachments/assets/863365d5-c1f6-4464-8680-977d7b3ccb4b)
+
+Posteriormente escribimos "proxy" en el cambio de texto, y nos aseguramos que la opción marcada en azul "network.proxy.allow_hijacking_localhost" esté seteada en true, esto permite que el navegador reenvie tráfico desde y hacia localhost através del proxy, estamos configurando el proxy a nivel de Red.
 
 ![image](https://github.com/user-attachments/assets/a2b6d210-3890-4d00-b4d5-8839132ef7f2)
 
+Ahora debemos configurar el acceso a internet de nuestro proxy, para ello hacemos click en las "tres rallas", para luego hacer click en "settings"
 ![image](https://github.com/user-attachments/assets/289a0bcd-5ece-41e9-ba88-54828fb63cbc)
 
+Procedemos a escribir "proxy" en el buscador, y nos dirigimos al apartado "settings"
 ![image](https://github.com/user-attachments/assets/7f50a1cc-5e0c-4b98-a0cb-33c9a4557584)
 
+Una vez allí, seleccionamos la opción "Manual proxy configuration", y escribimos "127.0.0.1" esto es el puerto mediante el cuál nuestro navegador va a conectarse a tráficop HTTP, también utilizamos el mismo para HTTPS
 ![image](https://github.com/user-attachments/assets/bd16f80d-c3a3-4568-8175-8215b356ae00)
 
 ![image](https://github.com/user-attachments/assets/d97b874d-78a0-4d91-b970-aabf3d781f77)
