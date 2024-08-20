@@ -88,6 +88,47 @@ Lo recomendable es 3 núcleos de RAM(siempre y cuándo tu equipo lo soporte)
 
 Recuerda que los recursos que asignamos en estas configuración serán consumidos de el hardware de nuestra Máquina, por lo que es recomendable asignarselos con precaución y de una manera adecuada teniendo en cuenta nuestras especificaciónes.
 
+### *Instalación de un Proxy de interceptación(ZAP)*
+Una vez adentro de nuestra máquina virtual lo que debemos hacer es entrar a la página oficial de ZAP https://www.zaproxy.org/download/
+
+Posteriormente debemos utilizar la versión compatible con nuestro sistema operativo, en nuestro caso Linux, tenemos 2 opciónes, Linux Installer y Linux Package(la más recomendaba y a efectos de este tutorial va a ser Linux Package, esto debido a qué es mucho más "Plug and Play" ya que no debemos instalar los paquetes por nuestra cuenta).
+
+![image](https://github.com/user-attachments/assets/358b845e-9a91-4195-bfaf-7310fce10fa7) 
+
+
+![image](https://github.com/user-attachments/assets/d03cf32c-422f-4348-8be4-62c128599acc)
+
+![image](https://github.com/user-attachments/assets/f29a6a38-2fcf-45bd-9cb1-a36ee3b0d42d)
+
+![image](https://github.com/user-attachments/assets/6b925478-8112-4351-90b7-3cf609fad1e7)
+
+![image](https://github.com/user-attachments/assets/764b3b2f-e478-445a-b126-40a75a7210d8)
+
+![image](https://github.com/user-attachments/assets/8468ae80-94d8-46cf-a470-43b94d386e54)
+
+![image](https://github.com/user-attachments/assets/768b19fc-f968-4331-8e4b-6e9078b333c7)
+
+![image](https://github.com/user-attachments/assets/0e494dc0-cbf9-417a-b8bb-d9f844fc4bbc)
+
+![image](https://github.com/user-attachments/assets/863365d5-c1f6-4464-8680-977d7b3ccb4b)
+
+![image](https://github.com/user-attachments/assets/a2b6d210-3890-4d00-b4d5-8839132ef7f2)
+
+![image](https://github.com/user-attachments/assets/289a0bcd-5ece-41e9-ba88-54828fb63cbc)
+
+![image](https://github.com/user-attachments/assets/7f50a1cc-5e0c-4b98-a0cb-33c9a4557584)
+
+![image](https://github.com/user-attachments/assets/bd16f80d-c3a3-4568-8175-8215b356ae00)
+
+![image](https://github.com/user-attachments/assets/d97b874d-78a0-4d91-b970-aabf3d781f77)
+
+![image](https://github.com/user-attachments/assets/99ec7869-1ee9-4fee-8188-85ad15e13faf)
+
+
+
+
+### *Instalación de un Proxy de interceptación(BURP)* --Parte de Franco
+
 
 
 
