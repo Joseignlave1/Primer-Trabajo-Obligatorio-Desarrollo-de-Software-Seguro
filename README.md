@@ -146,7 +146,30 @@ Una vez allí, seleccionamos la opción "Manual proxy configuration", y escribim
 
 ### *Instalación de un Proxy de interceptación(BURP)* --Parte de Franco
 
-### *Ejecución de un contenedor con OWASP Juice Shop*:
+### *Instalación de Docker en la máquina virtual de Kali Linux*:
+
+Primero procedemos a abrir la terminal para esto debemos hacer click en el ícono negro arriba a la izquierda de la pantalla:
+
+![image](https://github.com/user-attachments/assets/5a5fff4e-73b7-4dff-a225-a55c9d9135ae)
+
+Una vez dentro de la terminal debemos escribir el siguiente comando "sudo apt update"
+
+![image](https://github.com/user-attachments/assets/49b55109-83a0-4043-9a6a-98f62ee4fd7f)
+
+Posteriormente procedemos a instalar docker, para ello ejecutamos el siguiente comando sudo apt install -y docker.io
+
+![image](https://github.com/user-attachments/assets/9864ee21-860c-4aab-afc8-09e35816c28f)
+
+Activamos docker en el sistema ejecutando el siguiente comando "sudo systemctl enable docker --now"
+
+
+![image](https://github.com/user-attachments/assets/92d506bd-2ff1-441c-83b8-d431cbe5517f)
+
+Opcionalmente podemos ejecutar el comando "docker", para verificar si docker se instaló correctamente.
+
+![image](https://github.com/user-attachments/assets/1d26020b-102e-423a-9796-4879c08336cc)
+
+
 
 
 
