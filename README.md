@@ -6,14 +6,14 @@ En este trabajo realizaremos un Write Up acerca del armado de un ambiente de pru
 
 En este tutorial utilizaremos eligiremos virtualBox como máquina virtual y mostraremos los pasos para configurar los proxys de interpretación ZAP y BURP.
 
-
 ### **Requisitos:**
 
--Instalación de Kali Linux en una máquina virtual(recomendamos virtual box para este tutorial)
--Instalación de un Proxy de interceptación(ZAP o BURP)
--Instalación de docker en la máquina virtual de Kali Linux
--Ejecución de un contenedor con OWASP Juice Shop
--Prueba de la visualización del tráfico con el proxy de interpretación seleccionado.
+- Instalación de Kali Linux en una máquina virtual (recomendamos VirtualBox para este tutorial)
+- Instalación de un Proxy de interceptación (ZAP o BURP)
+- Instalación de Docker en la máquina virtual de Kali Linux
+- Ejecución de un contenedor con OWASP Juice Shop
+- Prueba de la visualización del tráfico con el proxy de interceptación seleccionado
+
 
 
 ### **Instalación de Kali Linux en una máquina virtual**
