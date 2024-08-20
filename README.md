@@ -64,7 +64,7 @@ Abrimos Virtual Box, hacemos click en Maquina-Añadir, y seleccionamos nuestro a
 ![image](https://github.com/user-attachments/assets/75ad4b8f-79a4-4729-a5dd-5968d55df335)
 
 
-Esto ya nos creará la máquina virtual, por lo que solo debemos inicializa.
+Esto ya nos creará la máquina virtual, por lo que solo debemos inicializarla.
 
 El usuario por defecto es kali y la contraseña kali
 
