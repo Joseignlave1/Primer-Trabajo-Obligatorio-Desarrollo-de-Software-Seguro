@@ -4,5 +4,5 @@
 En este trabajo realizaremos un Write Up acerca del armado de un ambiente de pruebas de aplicaciones.
 
 
-Requisitos: **bold**
+**Requisitos:**
 -
