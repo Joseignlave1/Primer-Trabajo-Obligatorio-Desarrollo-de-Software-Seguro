@@ -17,8 +17,15 @@ En este tutorial utilizaremos eligiremos virtualBox como máquina virtual y most
 
 
 ### **Instalación de Kali Linux en una máquina virtual**
+
 Para esto primero procederemos al sitio web de virtual box https://www.virtualbox.org/
 
 y haremos click a donde dice "Download Virtual Box 7.0"
 
 ![image](https://github.com/user-attachments/assets/b54df357-720f-4645-89ee-aca45c278339)
+
+Posterior a esto simplemente nos paramos a donde dice "VirtualBox 7.0.20 platform packages"  y seleccionamos la versión compatible con nuestro sistema operativo.
+
+![image](https://github.com/user-attachments/assets/87eaace4-8ac2-4355-8bfa-4841a304e53e)
+
+
