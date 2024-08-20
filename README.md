@@ -169,6 +169,38 @@ Opcionalmente podemos ejecutar el comando "docker", para verificar si docker se 
 
 ![image](https://github.com/user-attachments/assets/1d26020b-102e-423a-9796-4879c08336cc)
 
+### *Ejecución de un contenedor con OWASP Juice Shop*:
+
+Para realizar la ejecución del contenedor, procedemos a abrir nuevamente la terminal:
+
+![image](https://github.com/user-attachments/assets/5a5fff4e-73b7-4dff-a225-a55c9d9135ae)
+
+
+Posteriormente realizamos un pull de la imagen con mediante el siguiente comando "sudo docker pull bkimminich/juice-shop"
+
+![image](https://github.com/user-attachments/assets/61a203f4-9a72-49a2-be1d-90322aec2787)
+
+Ahora debemos hacer que la imagen se ejecute en el mismo puerto que especificamos en ZAP, en nuestro caso el 3000
+
+![image](https://github.com/user-attachments/assets/73841036-0d87-415c-872e-983aa0e156d2)
+
+
+#### *iniciar o parar el contenedor creado*
+
+Para iniciar nuestro contenedor debemos abrir la terminal:
+
+![image](https://github.com/user-attachments/assets/5a5fff4e-73b7-4dff-a225-a55c9d9135ae)
+
+Para posteriormente ejecutar el siguiente comando "sudo docker start juice-shop"
+
+![image](https://github.com/user-attachments/assets/3141f334-9c7b-48b0-9aaa-2a28a6f15201)
+
+Para dejar de ejecutar nuestro contenedor, debemos ejecutar el siguiente comando:
+
+![image](https://github.com/user-attachments/assets/f2d0828d-86da-4154-bb68-f87769e31c8f)
+
+
+### *Prueba de la visualización del tráfico con el proxy de interceptación seleccionado* ###
 
 
 
