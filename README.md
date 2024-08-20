@@ -200,7 +200,40 @@ Para dejar de ejecutar nuestro contenedor, debemos ejecutar el siguiente comando
 ![image](https://github.com/user-attachments/assets/f2d0828d-86da-4154-bb68-f87769e31c8f)
 
 
-### *Prueba de la visualización del tráfico con el proxy de interceptación seleccionado* 
+### *Prueba de la visualización del tráfico con el proxy de interceptación seleccionado*:
+
+Para realizar la visualización del tráfico simplemente inicializamos ZAP
+
+![image](https://github.com/user-attachments/assets/eda1e1d4-caae-4367-96b5-b1fe3ca5e014)
+
+Posteriormente hacemos click en el ícono de Firefox, arriba a la derecha
+
+![image](https://github.com/user-attachments/assets/3a5276c7-002e-4f31-b7ad-e5b8fd688e57)
+
+Ahora simplemente se inicializa nuestro navegador, conectandonos al la url definida y en ella podemos visualizar la imagen de docker ejecutandose correctamente en el puerto 
+
+![image](https://github.com/user-attachments/assets/68d6face-c4a3-46c6-83b3-59904c706330)
+
+Por último procedemos a realizar dirigirnos al apartado History en ZAP:
+
+![image](https://github.com/user-attachments/assets/c167fc37-d73a-46d3-b7c9-add453731381)
+
+Como podemos ver, el tráfico es interceptado correctamente
+
+![image](https://github.com/user-attachments/assets/b503a3f2-54aa-4e32-9de8-4bdbe1506b63)
+
+
+Muchas gracias por haber leído nuestro Write-Up,
+
+Esperemos que les haya gustado.
+
+
+
+
+
+
+
+
 
 
 
