@@ -50,8 +50,38 @@ Al completar la instalación, vamos a tener un archivo comprimido(.zip)
 
 ![image](https://github.com/user-attachments/assets/3de38dee-1fee-4a82-bf49-58392779c6bc)
 
-Al extrerlo tendremos varios .amd, en este caso el que necesitamos es el de virtualBox
+Al extraerlo tendremos varios .amd, en este caso el que necesitamos es el de virtualBox
 
+![image](https://github.com/user-attachments/assets/1d73b0f7-bcc7-46e1-acc2-67a8d45a619a)
+
+
+#### Inicialización de la Máquina Virtual con Kali
+
+Abrimos Virtual Box, hacemos click en Maquina-Añadir, y seleccionamos nuestro archivo .amd en nuestro escritorio.
+
+Esto ya nos creará la máquina virtual, por lo que solo debemos inicializa.
+
+El usuario por defecto es kali y la contraseña kali
+
+![image](https://github.com/user-attachments/assets/d9792163-138c-4d7e-af2c-fd2f32984640)
+
+#### Configurarle los recursos:
+
+Adiccionalmente podemos configurarle los recursos, para ello hacemos nos dirigimos a Virtual Box, buscamos nuestra máquina virtual y hacemos click en  configuración - Sistema - Placa base.
+
+En este apartado podemos configurarle la memoria RAM(lo recomendado siempre y cuándo tu equipo lo soporte es 4096MB - 4GB)
+
+****![image](https://github.com/user-attachments/assets/db14a967-495d-4ac4-b3a4-a7fd1edb8c9a)
+
+Para configurar la cantidad de núcleos de nuestro procesador que le asignaremos a la máquina virtual nos dirigiremos a  configuración - Sistema - Procesador.
+
+Lo recomendable es 3 núcleos de RAM(siempre y cuándo tu equipo lo soporte)
+
+
+![image](https://github.com/user-attachments/assets/a5a2ce64-952b-472a-8583-7867b312c61d)
+
+
+Recuerda que los recursos que asignamos en estas configuración serán consumidos de el hardware de nuestra Máquina, por lo que es recomendable asignarselos con precaución y de una manera adecuada teniendo en cuenta nuestras especificaciónes.
 
 
 
