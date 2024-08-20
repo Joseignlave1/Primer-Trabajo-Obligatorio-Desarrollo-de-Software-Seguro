@@ -106,11 +106,6 @@ Posteriormente abrimos la terminal y nos dirigimos a nuestro directorio de desca
 
 ![image](https://github.com/user-attachments/assets/6b925478-8112-4351-90b7-3cf609fad1e7)
 
-
-Podemos configurar el navegador por defecto de ZAP en donde dice "Explore your Application", en el caso de este tutorial, el navegador escogido será Firefox.
-Esto debido a qué Firefox tiene una compatibilidad nativa con ZAP, lo que facilita la configuración de proxies sin extensiónes adiccionales.
-
-Posteriormente abrimos la terminal y nos dirigimos a nuestro directorio de descargas para después movernos hacia donde tenemos la carpeta extraída del zip.
 ![image](https://github.com/user-attachments/assets/8468ae80-94d8-46cf-a470-43b94d386e54)
 
 Ejecutamos el comando ./zap.sh en la consola, para así poder abrir directamente el programa ZAP.
@@ -118,6 +113,10 @@ Ejecutamos el comando ./zap.sh en la consola, para así poder abrir directamente
 
 
 Una vez dentro, nos dirigimos a el apartado "Quick Start", en le vamos a configurar la URL la cuál va a ser explorada por el navegador(deber la misma URL en la cuál se va a ejecutar la imagen de nuestro contenedor de docker) a efectos de este tutorial, la url escogida será "http://localhost:3000".
+
+Podemos configurar el navegador por defecto de ZAP en donde dice "Explore your Application", en el caso de este tutorial, el navegador escogido será Firefox.
+Esto debido a qué Firefox tiene una compatibilidad nativa con ZAP, lo que facilita la configuración de proxies sin extensiónes adiccionales.
+
 ![image](https://github.com/user-attachments/assets/0e494dc0-cbf9-417a-b8bb-d9f844fc4bbc)
 
 Ahora vamos a configurar el proxy del navegador, para ello hacemos click en el ícono Firefox dentro de ZAP.
