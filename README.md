@@ -95,14 +95,16 @@ Posteriormente debemos utilizar la versión compatible con nuestro sistema opera
 
 ![image](https://github.com/user-attachments/assets/358b845e-9a91-4195-bfaf-7310fce10fa7) 
 
-Después de la instalación, tendremos una archivo comprimido(.zip) el cuál debemos extraer 
-![image](https://github.com/user-attachments/assets/d03cf32c-422f-4348-8be4-62c128599acc) ![image](https://github.com/user-attachments/assets/f29a6a38-2fcf-45bd-9cb1-a36ee3b0d42d)
+Después de la instalación, tendremos una archivo comprimido(.zip) el cuál debemos extraer <br>
+![image](https://github.com/user-attachments/assets/d03cf32c-422f-4348-8be4-62c128599acc) 
+
+![image](https://github.com/user-attachments/assets/f29a6a38-2fcf-45bd-9cb1-a36ee3b0d42d)
 
 Posteriormente abrimos la terminal y nos dirigimos a nuestro directorio de descargas para después movernos hacia donde tenemos la carpeta extraída del zip.
 
-![image](https://github.com/user-attachments/assets/6b925478-8112-4351-90b7-3cf609fad1e7)
-
 ![image](https://github.com/user-attachments/assets/764b3b2f-e478-445a-b126-40a75a7210d8)
+
+![image](https://github.com/user-attachments/assets/6b925478-8112-4351-90b7-3cf609fad1e7)
 
 
 Podemos configurar el navegador por defecto de ZAP en donde dice "Explore your Application", en el caso de este tutorial, el navegador escogido será Firefox.
