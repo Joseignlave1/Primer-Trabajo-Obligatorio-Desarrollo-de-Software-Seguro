@@ -4,12 +4,12 @@
 
 En este trabajo realizaremos un Write Up acerca del armado de un ambiente de pruebas de aplicaciones. Para esto, consideramos que recurrir a la virtualización es la mejor opción.
 
-En este tutorial utilizaremos VirtualBox como máquina virtual y mostraremos los pasos para configurar los proxys de interceptación ZAP y BURP.
+En este tutorial utilizaremos VirtualBox como máquina virtual y mostraremos los pasos para configurar los proxys de interceptación ZAP.
 
 ### *Requisitos*:
 
 - Instalación de Kali Linux en una máquina virtual (recomendamos VirtualBox para este tutorial).
-- Instalación de un Proxy de interceptación (ZAP o BURP).
+- Instalación de un Proxy de interceptación (ZAP).
 - Instalación de Docker en la máquina virtual de Kali Linux.
 - Ejecución de un contenedor con OWASP Juice Shop.
 - Prueba de la visualización del tráfico con el proxy de interceptación seleccionado.
@@ -139,9 +139,6 @@ Procedemos a escribir `proxy` en el cuadro de búsqueda y nos dirigimos al apart
 Una vez allí, seleccionamos la opción "Manual proxy configuration" y escribimos `127.0.0.1`. Este es el puerto mediante el cual nuestro navegador va a conectarse a tráfico HTTP; también utilizamos el mismo para HTTPS.
 
 ![image](https://github.com/user-attachments/assets/99ec7869-1ee9-4fee-8188-85ad15e13faf)
-
-### *Instalación de un Proxy de interceptación (BURP)*   PARTE DE FRANCO
-
 
 ### *Instalación de Docker en la máquina virtual de Kali Linux*:
 
